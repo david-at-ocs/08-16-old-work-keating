@@ -1,0 +1,468 @@
+body.wrap {
+	margin: 0 0;
+	background-color: #white;
+	/*background: url("images/diagLineBG02.jpg") repeat;
+	background: url("images/stripes01.jpg") repeat-x;*/
+	height:100%;
+	min-height:100%;/*for mozilla*/
+}
+
+h1 {
+	font-size: 16pt;
+	font-family: Century, Futura_Medium, Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	text-decoration: none;
+	letter-spacing: -.02em;
+	font-weight: normal;
+	margin: 0 0;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-size: 10pt;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 0 0;
+	margin-bottom: 0px;
+}
+
+h3 {
+	font-size: 14pt;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	text-decoration: none;
+	font-style: normal;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+p {
+	font-size: 10pt;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	text-decoration: none;
+	letter-spacing: .03em;
+	color: #333;
+	margin: 0 0;
+	margin-bottom: 20px;
+}
+
+@font-face {
+	font-family: Futura_Medium;
+	src: url("Futura_Medium.ttf");
+}
+
+/* ----------------------------------- header container ------------------------------------ */
+
+#toprow {
+	background-color: #FFF;
+	/*margin-top: 25px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 5px;*/
+	width: 100%;
+	margin: 0px auto;
+}
+
+#logocontainer {
+	background-color: #FFF;
+	/*margin-top: 25px;
+	padding-left: 10px;*/
+	padding-top: 10px;
+	padding-bottom: 5px;
+	width: 910px;
+	margin: 0px auto;
+}
+
+/* ----------------------------------- end header container ------------------------------------ */
+
+/* ----------------------------------- start nav bar ------------------------------------------- */
+
+#navcontainer {
+	clear:left;
+	background-color: #00447C;
+	border-top: 1px solid #0B0D2E;
+	border-bottom: 1px solid #0B0D2E;
+	height: 31px;
+}
+
+#nav {
+	background-color: #00447C;
+	width: 912px;
+	margin: 0px auto;
+	padding: 0px 0px;
+	list-style: none;
+}
+	
+#nav li {
+	float: left;
+	width: 20%;
+	/*display: block;
+	width: 182px;
+	width: 175px;
+	border-right: 3px solid #00447C;*/
+}
+	
+#nav li a {
+	/*background-color: #f2f2f2;*/
+	border-left: 1px solid #0B0D2E;
+	background-color: #00447C;
+	display: block;
+	padding: 8px /*15px*/;
+	color: #D1EAFF;
+	font-size: 9pt;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	/*border-right: 1px solid #ccc;
+	border-right: 3px solid #00447C;*/
+	letter-spacing: 1px;
+}
+	
+#nav li a:hover {
+	color: #0B0D2E;
+}
+	
+#nav li a:visited {
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+	
+#nav li a:active {
+	color: #0B0D2E;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+/* ----------------------------------- end nav bar --------------------------------------------- */
+
+/* ----------------------------------- start banner -------------------------------------------- */
+
+#bannercontainer {
+	clear: left;
+	height: 275px;
+	width: 100%;
+	margin: 0px auto;
+	background-image: url("images/diagLineBG01.jpg");
+}
+
+#banner {
+	width: 910px;
+	height: 275px;
+	margin: 0px auto;
+	border: 1px solid #0B0D2E;
+	border-top: 0;
+}
+
+#bannercontainersubpages {
+	clear: left;
+	height: 210px;
+	width: 100%;
+	margin: 0px auto;
+	background-image: url("images/diagLineBG01.jpg");
+}
+
+#bannersubpages {
+	width: 910px;
+	height: 210px;
+	margin: 0px auto;
+	border: 1px solid #0B0D2E;
+	border-top: 0;
+}
+
+/* ----------------------------------- end banner ---------------------------------------------- */
+
+/* ----------------------------------- body stuff ---------------------------------------------- */
+
+#bodycontainer {
+	background-color: white;
+	width: 100%;
+	margin: 0px auto;
+	border-top: 1px solid #0B0D2E;
+}
+
+#textcontainer {
+	padding-top: 30px;
+	padding-bottom: 10px;
+	background-color: white;
+	width: 910px;
+	margin: 0px auto;
+}
+
+#textcontainerservices {
+	float: left;
+	background-color: white;
+	width: 550px;
+	margin-left: 15px;
+}
+
+#home {
+	padding-left: 50px;
+}
+
+#servicestestimonial {
+	padding: 20px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 10px;
+	width: 275px;
+	background-color: #eee;
+	border: 1px solid #00447C;
+}
+
+#servicestestimonial p.quote {
+	font-style:italic;
+	font-size: 10pt;
+	letter-spacing: normal;
+	color: black;
+	display:inline;
+}
+
+#servicestestimonial ul {
+	display:inline;
+	text-align: right;
+}
+	
+#servicestestimonial li {
+	list-style: none;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	font-size: 10pt;
+	color: #555555;
+}
+
+#sidebar {
+	float: right;
+	margin-top: 20px;
+	margin-right: 10px;
+	padding: 10px;
+	height: 1.5in;
+	width: 275px;
+	background-color: #eee;
+	border: 1px solid #00447C;
+}
+
+#sidebarlist {
+	padding-top: 10px;
+	padding-left: 20px;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;	
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+#sidebarlist li  { color: #00447c; list-style-image: url("images/bullets.gif"); padding-bottom: 15px }
+ 	
+#sidebarlist li a {
+	text-decoration: underline;
+	color: #00447C;
+}
+	
+#sidebarlist li a:hover {
+	text-decoration: none;
+	color: #0B0D2E;
+}
+
+#sidebarlist li a:active {
+	color: #00447C;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#hometext {
+	margin-left: 250px;
+}
+
+#imagespace1 {
+	float: left;
+	margin-right: 35px;
+	margin-bottom: 210px;
+	padding-top: 30px;
+}
+
+#slideshow2 {
+	float: left;
+}
+
+#imagespace2 {
+	float: left;
+	margin-right: 35px;
+	margin-bottom: 150px;
+	padding-top: 30px;
+}
+
+#emaillist {
+	float: left;
+	width: 300px;
+	padding-left: 20px;
+}
+
+#map {
+	float: right;
+	font-size: 10pt;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	text-decoration: none;
+	margin-right: 20px;
+	margin-top: 0px;
+}
+
+.pics {   
+    padding: 0;  
+    margin:  0;
+} 
+ 
+.pics img {
+    top:  0; 
+    left: 0 
+} 
+
+/* ----------------------------------- column stuff for clients page --------------------------- */
+
+#logorow {
+	float: left;
+	background-color: white;
+	margin: 0px;
+	padding: 0px 0px;
+	width: 909px;
+	list-style: none;
+	border-top: 1px solid #00447C;
+	border-bottom: 1px solid #00447C;
+	border-left: 1px solid #00447C;
+}
+	
+#logorow li {
+	float: left;
+	width: 193px;
+	height: 80px;
+	border-right: 1px solid #00447C;
+	padding-top: 10px;
+	padding-left: 33px;
+}
+
+/* ----------------------------------- quote boxes for testomials ------------------------------ */
+
+#testimonialrow {
+	width: 857px;
+	float: left;
+	background-color: #ddd;
+	padding: 15px 25px;
+	border-bottom: 1px solid #00447C;
+	border-left: 1px solid #00447C;
+	border-right: 1px solid #00447C;
+}
+
+#testimonialrow p {
+	font-style:italic;
+	font-size: 10pt;
+	letter-spacing: normal;
+	color: black;
+	display:inline;
+}
+
+#testimonialrow ul {
+	display:inline;
+	text-align: right;
+}
+	
+#testimonialrow li {
+	list-style: none;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	font-size: 10pt;
+	color: #555555;
+}
+
+/* ----------------------------------- footer stuff -------------------------------------------- */
+
+#footertagline {
+	padding-top: 30px;
+	text-align: center;
+	margin: 0px 100px;
+	font-weight: bold;
+}
+
+#footermenu {
+	clear: both;
+	padding-top: 40px;
+	text-align: center;
+}
+
+#copyright {
+	color: #00447C;
+	font-size: 8pt;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	text-decoration: none;
+	text-align: center;
+}
+
+/* ----------------------------------- text decorations ---------------------------------------- */
+
+.tag {
+	font-weight: bold;
+}
+
+a:link.emailheader {
+	color: white;
+	font-size: 10pt;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:visited.emailheader {
+	color: white;
+	font-size: 10pt;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover.emailheader {
+	color: #000032;
+	font-size: 10pt;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:active.emailheader {
+	color: #000032;
+	font-size: 10pt;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:link.footeritem {
+	color: #00447C;
+	/* letter-spacing: 1px;*/
+	font-size: 8pt;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:visited.footeritem {
+	color: #00447C;
+	/* letter-spacing: 1px;*/
+	font-size: 8pt;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover.footeritem {
+	color: #0B0D2E;
+	/* letter-spacing: 1px;*/
+	font-size: 8pt;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:active.footeritem {
+	color: #00447C;
+	/* letter-spacing: 1px;*/
+	font-size: 8pt;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
